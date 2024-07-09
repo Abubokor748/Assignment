@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap')
+
+.fot{
+    font-family: "Azeret Mono";
+}
+*{
+    color: #0D1321;
+}
+.nav-bar{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bn{
+    font-weight: 800;
+    font-size: 28;
+}
+.down{
+    font-weight: 600;
+    font-size: 20;
+    padding: 17px 24px;
+    border-radius: 10px;
+}
+.nav-under{
+    background-image: url(assets/Hero-bg.png);
+}
+.nav-box{
+    margin: 26px 221px 113px 221px;
+}
+.nav-under img {
+    padding: 26px;
+    margin: 0px auto;
+    display: block;
+}
+.nav-title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 48;
+}
+.nav-des{
+    text-align: center;
+    font-size: 16;
+}
+.me{
+    background-color: #0D1321;
+    color: #fff;
+    border-radius: 8px;
+    padding: 21px 24px;
+    margin: 0px auto;
+    display: block;
+}
+/* nav-bar done */
+
+/* body - web dev section starts */
+.web-dev{
+    margin:74px 150px 90px 150px;
+    padding: 80px 97px;
+}
+.web-dev-1{
+    padding: 0px 47px 48px 47px ;
+    text-align: center;
+}
+.web-dev-1-title{
+    margin: 0px 47px 24px 47px;
+    font-weight: 800;
+    font-size: 32;
+}
+web-dev-1-des{
+    margin: 61px 47px 47px 47px;
+    font-size: 16;
+}
+.coding{
+    margin: 47px 47px 0px 47px;
+    gap: 32px;
+}
+.coding1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.des-head{
+    font-weight: 700;
+    font-size: 24;
+}
+.des-des{
+    font-size: 16;
+}
+.l-more{
+    font-weight: 600;
+    font-size: 20;
+}
+
+
