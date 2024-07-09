@@ -89,4 +89,87 @@ web-dev-1-des{
     font-size: 20;
 }
 
+/* Web dev section ends */
 
+/* inspiration starts */
+.insp{
+    margin: 90px 150px 150px 150px;
+    text-align: center;
+}
+.inspiration{
+    padding: 0px 150px 50px 150px;
+}
+.inspiration-title{
+    font-weight: 800;
+    font-size: 32;
+}
+.inspiration-des{
+    font-size: 16;
+}
+.vid{
+    padding: 32px;
+    border: 1px solid;
+    border-radius: 16px;
+}
+
+.yt-vid{
+    border-radius: 16px;   
+    
+    /* Inpiration done */
+    /* target starts */
+}
+.target{
+    margin: 150px 150px 50px 150px;
+}
+.tar-des{
+    padding: 0px 96px 48px 96px;
+    text-align: center;
+}
+.tar-des-title{
+    font-weight: 800;
+    font-size: 32;
+}
+.tar-des-descript{
+    font-size: 16;
+}
+.tar-lang{
+    display: flex;
+    gap: 24px;
+    justify-content: center
+}
+.lang-name{
+    font-weight: 800;
+    font-size: 24;
+}
+.lang-des{
+    font-size: 16;
+}
+.linking{
+    font-weight: bold;
+}
+.next-target{
+    margin-top: 111px;
+    text-align: center;
+}
+.next-title{
+    font-weight: 800;
+    font-size: 32;
+}
+.next-des{
+    font-size: 16;
+}
+.next-lang{
+    display: flex;
+    justify-content: space-around;
+}
+.fut-des-title{
+    font-weight: 800;
+    font-size: 24;
+}
+.fut-des-descript{
+    font-size: 16;
+}
+
+/* next target done */
+
+/* support starts */
