@@ -173,3 +173,36 @@ web-dev-1-des{
 /* next target done */
 
 /* support starts */
+.support{
+    margin: 50px, 150px 80px 150px;
+    justify-content: center;
+}
+.support-box{
+    background-image: url(assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-items: center;
+    background-size: contain;
+    width: 1000px;
+    height: 300px;
+}
+.support-box{
+    text-align: center;
+}
+.suggestion{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.feed{
+    width: 548px;
+    height: 57px;
+}
+.mit{
+    width: 120px;
+    height: 57px;
+}
+
+/* body done */
+
+/* footer start */
