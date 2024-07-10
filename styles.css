@@ -242,6 +242,10 @@ html{
     font-size: 32;
     color: white;
 }
+/* supports section done. Body ends */
+
+/* footer starts */
+
 .des-foot{
     font-size: 16;
     color: #fff;
@@ -257,3 +261,4 @@ html{
     display: flex;
     gap: 24px;
 }
+/* footer ends */
