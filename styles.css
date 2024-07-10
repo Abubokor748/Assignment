@@ -44,9 +44,8 @@ html{
     font-weight: 800;
     font-size: 48;
 }
-.nav-des{
+.des{
     text-align: center;
-    font-size: 16;
 }
 .btn-con{
     display: flex;
@@ -77,10 +76,6 @@ html{
     font-weight: 800;
     font-size: 32;
 }
-web-dev-1-des{
-    margin: 61px 47px 47px 47px;
-    font-size: 16;
-}
 .coding{
     margin: 47px 47px 0px 47px;
     gap: 32px;
@@ -92,9 +87,6 @@ web-dev-1-des{
 .des-head{
     font-weight: 700;
     font-size: 24;
-}
-.des-des{
-    font-size: 16;
 }
 .l-more{
     font-weight: 600;
@@ -155,18 +147,21 @@ web-dev-1-des{
     border-radius: 16px;
     width: 364px;
     height: 299px;
+    padding: 40px;
 }
 .lang2{
     background-color: rgba(0, 76, 232, 0.05);
     border-radius: 16px;
     width: 364px;
     height: 299px;
+    padding: 40px;
 }
 .lang3{
     background-color: rgba(255, 223, 0, 0.05);
     border-radius: 16px;
     width: 364px;
     height: 299px;
+    padding: 40px;
 }
 .lang-name{
     font-weight: 800;
@@ -191,9 +186,15 @@ web-dev-1-des{
 }
 .next-lang{
     display: flex;
-    gap: 24px;
     justify-content: space-around;
-    border: 1px dotted;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+.lang-gap{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+   
 }
 .fut-des-title{
     font-weight: 800;
@@ -241,7 +242,6 @@ web-dev-1-des{
     font-size: 32;
     color: white;
 }
-
 .des-foot{
     font-size: 16;
     color: #fff;
@@ -249,10 +249,11 @@ web-dev-1-des{
 .foot{
     display: flex;
     justify-content: space-between;
+    margin-top: 80px;
     padding: 32px 150px;
+    background-color: rgba(13, 19, 33, 0.03);
 }
 .icons{
     display: flex;
     gap: 24px;
-
 }
