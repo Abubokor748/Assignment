@@ -1,15 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-.fot{
-    font-family: "Azeret Mono";
+body{
+    font-family: "Azeret Mono", monospace;
 }
 *{
     color: #0D1321;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
 }
 .nav-bar{
     margin: 50px;
     display: flex;
     justify-content: space-between;
+}
+.nav-bar a{
+    text-decoration: none;
 }
 .nav-bn{
     font-weight: 800;
@@ -41,13 +48,18 @@
     text-align: center;
     font-size: 16;
 }
+.btn-con{
+    display: flex;
+    justify-content: center;
+}
 .me{
     background-color: #0D1321;
     color: #fff;
     border-radius: 8px;
     padding: 21px 24px;
-    margin: 0px auto;
-    display: block;
+}
+.me:hover{
+    cursor: pointer;
 }
 /* nav-bar done */
 
@@ -116,6 +128,7 @@ web-dev-1-des{
     border-radius: 16px;   
     
     /* Inpiration done */
+
     /* target starts */
 }
 .target{
@@ -135,7 +148,25 @@ web-dev-1-des{
 .tar-lang{
     display: flex;
     gap: 24px;
-    justify-content: center
+    justify-content: center;
+}
+.lang1{
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    width: 364px;
+    height: 299px;
+}
+.lang2{
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    width: 364px;
+    height: 299px;
+}
+.lang3{
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    width: 364px;
+    height: 299px;
 }
 .lang-name{
     font-weight: 800;
@@ -160,7 +191,9 @@ web-dev-1-des{
 }
 .next-lang{
     display: flex;
+    gap: 24px;
     justify-content: space-around;
+    border: 1px dotted;
 }
 .fut-des-title{
     font-weight: 800;
@@ -169,40 +202,57 @@ web-dev-1-des{
 .fut-des-descript{
     font-size: 16;
 }
-
 /* next target done */
 
 /* support starts */
-.support{
-    margin: 50px, 150px 80px 150px;
-    justify-content: center;
-}
-.support-box{
+.support-sec{
+    width: 1140px;
+    height: 313px;
+    border-radius: 16px;
+    margin: 0 auto;
     background-image: url(assets/handshake.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    justify-items: center;
-    background-size: contain;
-    width: 1000px;
-    height: 300px;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
 }
-.support-box{
+.support-contain{
     text-align: center;
 }
-.suggestion{
+.contain-wr{
+    padding: 64px 157px 14px;
+}
+.suggestion{ 
     display: flex;
-    gap: 16px;
+    gap: 16px; 
     justify-content: center;
 }
-.feed{
-    width: 548px;
-    height: 57px;
-}
-.mit{
+.feed{ 
+    width: 350px; 
+    height: 57px; 
+ } 
+ .mit{ 
     width: 120px;
     height: 57px;
 }
+.need{
+    font-weight: bold;
+    font-size: 32;
+    color: white;
+}
 
-/* body done */
+.des-foot{
+    font-size: 16;
+    color: #fff;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+}
+.icons{
+    display: flex;
+    gap: 24px;
 
-/* footer start */
+}
